@@ -120,6 +120,9 @@ The photos were taken by myself and resized for better website performance using
 		
 ## Acknowledgements
 
-	• I received learnings & tutorials on how to build the bootstrap website from this YouTube channel: Responsive Bootstrap Website Start To Finish with Bootstrap 4, HTML5 & CSS3
+I received learnings & tutorials on how to build the bootstrap website from this YouTube channel: Responsive Bootstrap Website Start To Finish with Bootstrap 4, HTML5 & CSS3
+
+references
+README reference was from this readme file: https://github.com/D0nni387/Luxury-Door-Solutions/blob/master/README.md
 	
 	
