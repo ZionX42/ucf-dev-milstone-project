@@ -1,8 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+/*-- Google Fonts --*/
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
 
+/*---HTML & Body --*/
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+    color: #222;
+}
 
-/*---Media Queries --*/
+/*---Navigation --*/
+.navbar {
+    padding: 0.8rem;
+}
+.navbar-nav li {
+    padding-right: 20px;
+}
+.nav-link {
+    font-size: 3em !important;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+/*---Media Queries (Sourced From w3newbie) --*/
 @media (max-width: 992px) {
 
   }
@@ -10,11 +34,8 @@
   
 }
 @media (max-width: 576px) {
-  
-}
 
-
-/*---Firefox Bug Fix --*/
+/*---Firefox Bug Fix (Sourced From w3newbie)--*/
 .carousel-item {
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
@@ -22,7 +43,8 @@
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
-/*--- Fixed Background Image --*/
+
+/*--- Fixed Background Image (Sourced From w3newbie)--*/
 figure {
   position: relative;
   width: 100%;
@@ -51,14 +73,10 @@ figure {
           transform: translateZ(0);
   will-change: transform;
 }
-/*--- Bootstrap Padding Fix --*/
+/*--- Bootstrap Padding Fix (Sourced From w3newbie) --*/
 [class*="col-"] {
     padding: 1rem;
 }
-
-
-
-
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
