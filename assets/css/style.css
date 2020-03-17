@@ -178,6 +178,16 @@ footer li a  {
     color: #d5d5d5;
 }
 
+/*-------------------------- Contact Form Styling --*/
+.contact-form{
+			background:rgba(0,0,0, .6);
+			color:white;
+			margin-top: 100px;
+			padding: 20px;
+			box-shadow: 0px 0px 10px 3px grey;
+		}
+
+
 /*---- Bootstrap Padding Fix (Sourced From w3newbie) --*/
 [class*="col-"] {
     padding: 1rem;
@@ -200,10 +210,3 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 --------------*/
 
-.contact-form{
-			background:rgba(0,0,0, .6);
-			color:white;
-			margin-top: 100px;
-			padding: 20px;
-			box-shadow: 0px 0px 10px 3px grey;
-		}
