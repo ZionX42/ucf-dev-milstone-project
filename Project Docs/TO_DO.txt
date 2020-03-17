@@ -1,0 +1,4 @@
+- Darken Carousel images
+- Fix mobile devices 
+- Update REAME file
+- create an real estate screenshot
