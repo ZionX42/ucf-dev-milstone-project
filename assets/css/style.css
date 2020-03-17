@@ -68,6 +68,15 @@ html, body {
 
 /*-------------------------- Support Section --*/
 /*-------------------------- Font Awesome Styling --*/
+.container-fluid {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.container-fluid p {
+    padding-top: 1rem;
+}
+
 .fa-child {
     color: #e54d26;
 }
@@ -143,6 +152,9 @@ max-height: 100%;
   
 }
 @media (max-width: 576px) {
+
+}
+
 
 
 /*---- Bootstrap Padding Fix (Sourced From w3newbie) --*/
