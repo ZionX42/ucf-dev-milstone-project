@@ -124,5 +124,5 @@ I received learnings & tutorials on how to build the bootstrap website from this
 
 references
 README reference was from this readme file: https://github.com/D0nni387/Luxury-Door-Solutions/blob/master/README.md
-	
+Footer & Copyright sippets: https://mdbootstrap.com/docs/jquery/navigation/footer/	
 	
