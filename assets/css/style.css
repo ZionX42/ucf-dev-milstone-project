@@ -155,6 +155,17 @@ max-height: 100%;
 
 }
 
+/*-------------------------- Footer Styling --*/
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+footer h3 a {
+    color: #d5d5d5;
+}
+
 
 
 /*---- Bootstrap Padding Fix (Sourced From w3newbie) --*/
