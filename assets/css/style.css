@@ -92,6 +92,49 @@ max-width: 100%;
 max-height: 100%;
 }
 
+/*------------------------------ Social Section --*/
+.social a {
+    font-size: 4em;
+    padding: 3rem;
+}
+
+/*----------------------Facebook Block --*/
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-facebook:hover {
+    color: #5777bb;
+}
+
+/*----------------------Twitter Block --*/
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-twitter:hover {
+    color: #306ef5;
+}
+
+/*----------------------instagram Block --*/
+.fa-instagram {
+    color: #dd2a7b;
+}
+
+.fa-instagram:hover {
+    color: #9b0046;
+}
+
+/*----------------------youtube BLock --*/
+.fa-youtube {
+    color: #ff0000;
+}
+
+.fa-youtube:hover {
+    color: #a30000;
+}
+
+
 /*-------------- Media Queries (Sourced From w3newbie) --*/
 @media (max-width: 992px) {
 
