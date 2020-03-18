@@ -7,10 +7,13 @@ There comes a time when you feel like your job is a bit stagnant, not being able
 But how can you when you are, what many might consider, too old to change your career! 
 
 You probably heard this many times through a friend or personally that you are too late to change. You will not learn new things, will never accept told off by others lot younger than you. I know I have been there many time, yet it didn't stop me. It made me more determined to prove others wrong. 
+
 ------
+
 This website is built for the overlooked minorities who are also majority of the working population. The over 40s that want to career change. The website will have curated articles, advice, and support for that ones who need it.
 
 ## UX
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 The idea to take advantage of the "Lazy coder" approach and use pre-coded core bootstrap template, snippets and libraries where possible. They will be then redesigned to fit my visual and CX (Customer Experience) requirements.
@@ -103,26 +106,28 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Resources:
 
-	• Bootstrap 4 core download : https://getbootstrap.com/
-	• Barebone website template & boiler plate that (I also updated with the latest versions) from: https://m.w3newbie.com/d/tutorial-29.zip (Template Code can been seen at Initial Commit2, 13a42f9945d74651cb264b44e636df9b934ca81c)
-	• Template from Code Institute: https://github.com/Code-Institute-Org/gitpod-full-template
+Bootstrap 4 core download : https://getbootstrap.com/
+
+Barebone website template & boiler plate that (I also updated with the latest versions) from: https://m.w3newbie.com/d/tutorial-29.zip (Template Code can been seen at Initial Commit2, 13a42f9945d74651cb264b44e636df9b934ca81c)
+
+Base template forked from Code Institute: https://github.com/Code-Institute-Org/gitpod-full-template
 
 ### Content:
 
-	• The text for section Y was copied from the Wikipedia article Z
+All the content that is not ipsum is written by me and the rest are auto generated on https://loremipsum.io/
 
 ### Media:
 
 The photos were taken by myself and resized for better website performance using this website
 
-	• Background: Rick Nassar
-	• Logo: Designed in Google Draw by Rick Nassar
+Background: Rick Nassar
+Logo: Designed in Google Draw by Rick Nassar
 		
 ## Acknowledgements
 
 I received learnings & tutorials on how to build the bootstrap website from this YouTube channel: Responsive Bootstrap Website Start To Finish with Bootstrap 4, HTML5 & CSS3
 
-references
+### References
 README reference was from this readme file: https://github.com/D0nni387/Luxury-Door-Solutions/blob/master/README.md
 Footer & Copyright sippets: https://mdbootstrap.com/docs/jquery/navigation/footer/	
 	
