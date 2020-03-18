@@ -48,10 +48,12 @@ html, body {
     transform: translateY(-70%);
 }
 .carousel-caption h1 {
+    font-size: 400%;
     text-shadow: 1px 1px 15px #000;
     font-weight: 700;
 }
 .carousel-caption h3 {
+    font-size: 200%;
     font-weight: 500;
     padding-bottom: 30px;
     text-shadow: 1px 1px 15px #000;
@@ -157,15 +159,62 @@ max-height: 100%;
 }
 
 
-/*-------------- Media Queries (Sourced From w3newbie) --*/
+/*-------------- Media Queries (Initial Sourced From w3newbie) --*/
 @media (max-width: 992px) {
-
+    .social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
   }
-@media (max-width: 768px) {
-  
+@media (max-width: 850px) {
+.carousel-caption {
+    top: 45%;
 }
-@media (max-width: 576px) {
-
+.carousel-caption h1 {
+    font-size: 350%;
+}
+.carousel-caption h3 {
+    font-size: 130%;
+    font-weight: 400;
+    padding-bottom: .2rem;
+}
+.carousel-caption .btn {
+    font-size: 95%;
+    padding: 8px 14px;
+}
+.display-4 {
+    font-size: 200%;
+}
+.social a {
+    font-size: 2.5em;
+    padding: 1.2rem;
+}
+}
+@media (max-width: 700px) {
+.carousel-caption {
+    top: 40%;
+}
+.carousel-caption h1 {
+    font-size: 210%;
+}
+.carousel-caption h3 {
+    display: none;
+    font-size: 110%;
+}
+.carousel-caption .btn {
+    font-size: 90%;
+    padding: 4px 8px;
+}
+.carousel-indicators {
+    display: none;
+}
+.display-4 {
+    font-size: 170%;
+}
+.social a {
+    font-size: 2em;
+    padding: .8rem;
+}
 }
 
 /*-------------------------- Footer Styling --*/
@@ -188,7 +237,7 @@ footer li a  {
 		}
 
 
-/*---- Bootstrap Padding Fix (Sourced From w3newbie) --*/
+/*---- Bootstrap Padding Fix ( Initial Source From w3newbie) --*/
 [class*="col-"] {
     padding: 1rem;
 }
