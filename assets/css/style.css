@@ -12,152 +12,9 @@
 html, body {
     width: 100%;
     height: 100%;
-    font-family: "Montserrat", sans-serif}
-
-/*---------------------------Navigation --*/
-.navbar {
-    padding: 0.8rem;
-    font-size: 1.2em;
-    font-weight: 500;
-}
-.navbar-nav li {
-    padding-right: 20px;
-}
-.nav-link {
-    font-size: 1.1em !important;
-}
-
-/*----------------------- Image Slider --*/
-
-
-.carousel-inner img {
-    
-    width: 100%;
-    height: 100%;
-}
-
-#carousel-inner {
-    color: black;
-    background-color: rgba(0, 0, 0, 0.5) !important;
-}
-
-
-.carousel-caption {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-70%);
-}
-.carousel-caption h1 {
-    font-size: 400%;
-    text-shadow: 1px 1px 15px #000;
-    font-weight: 700;
-}
-.carousel-caption h3 {
-    font-size: 200%;
-    font-weight: 500;
-    padding-bottom: 30px;
-    text-shadow: 1px 1px 15px #000;
-}
-.btn-primary {
-    background-color: #b443ff;
-    border: 1px solid #b443ff;
-}
-.btn-primary:hover {
-    background-color: #570091;
-    border: 1px solid #570091;
-}
-
-/*-------------------------- Welcome Section --*/
-.welcome {
-    width: 75%;
-    margin: 0 auto;
-    padding-top: 2rem;
-}
-
-.welcome hr {
-    border-top: 2px solid #b4b4b4;
-    width: 95%;
-    margin-top: .6rem;
-    margin-bottom: 1rem;
-}
-
-/*-------------------------- Support Section --*/
-/*-------------------------- Font Awesome Styling --*/
-.container-fluid {
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-
-.container-fluid p {
-    padding-top: 1rem;
-}
-
-.fa-child {
-    color: #e54d26;
-}
-
-.fa-fire {
-    color: #267fe5;
-}
-
-.fa-globe {
-    color: #02ac1e;
-}
-
-.fa-globe, .fa-fire, .fa-child {
-    font-size:3em;
-    margin: 1rem;
-}
-
-/*-------------------------- Interviews Section --*/
-.img-fluid {
-
-max-width: 100%;
-max-height: 100%;
-}
-
-/*------------------------------ Social Section --*/
-.social a {
-    font-size: 4em;
-    padding: 3rem;
-}
-
-/*----------------------Facebook Block --*/
-.fa-facebook {
-    color: #3b5998;
-}
-
-.fa-facebook:hover {
-    color: #5777bb;
-}
-
-/*----------------------Twitter Block --*/
-.fa-twitter {
-    color: #00aced;
-}
-
-.fa-twitter:hover {
-    color: #306ef5;
-}
-
-/*----------------------instagram Block --*/
-.fa-instagram {
-    color: #dd2a7b;
-}
-
-.fa-instagram:hover {
-    color: #9b0046;
-}
-
-/*----------------------youtube BLock --*/
-.fa-youtube {
-    color: #ff0000;
-}
-
-.fa-youtube:hover {
-    color: #a30000;
-}
-
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+    }
 
 /*-------------- Media Queries (Initial Sourced From w3newbie) --*/
 @media (max-width: 992px) {
@@ -217,45 +74,10 @@ max-height: 100%;
 }
 }
 
-/*-------------------------- Footer Styling --*/
-footer {
-    background-color: #3f3f3f;
-    color: #d5d5d5;
-}
 
-footer li a  {
-    color: #d5d5d5;
-}
-
-/*-------------------------- Contact Form Styling --*/
-.contact-form{
-			background:rgba(0,0,0, .6);
-			color:white;
-			margin-top: 100px;
-			padding: 20px;
-			box-shadow: 0px 0px 10px 3px grey;
-		}
-
-
-/*---- Bootstrap Padding Fix ( Initial Source From w3newbie) --*/
+/*---- Bootstrap Padding Fix (Initial Source From w3newbie) --*/
 [class*="col-"] {
     padding: 1rem;
 }
 
-/*--------------
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
---------------*/
 

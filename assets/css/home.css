@@ -1,0 +1,96 @@
+/*-------------------------- Welcome Section --*/
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .6rem;
+    margin-bottom: 1rem;
+}
+
+/*-------------------------- Support Section --*/
+/*-------------------------- Font Awesome Styling --*/
+.container-fluid p {
+    padding-top: 1rem;
+}
+
+.fa-child {
+    color: #e54d26;
+}
+
+.fa-fire {
+    color: #267fe5;
+}
+
+.fa-globe {
+    color: #02ac1e;
+}
+
+.fa-globe, .fa-fire, .fa-child {
+    font-size:3em;
+    margin: 1rem;
+}
+
+/*-------------------------- Videos Section --*/
+.iframe {
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+/*-------------------------- Interviews Section --*/
+.interviews {
+    padding-top: 2rem;
+}
+
+.img-fluid {
+
+max-width: 100%;
+max-height: 100%;
+}
+
+/*------------------------------ Social Section --*/
+.social a {
+    font-size: 4em;
+    padding: 3rem;
+}
+
+/*----------------------Facebook Block --*/
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-facebook:hover {
+    color: #5777bb;
+}
+
+/*----------------------Twitter Block --*/
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-twitter:hover {
+    color: #306ef5;
+}
+
+/*----------------------instagram Block --*/
+.fa-instagram {
+    color: #dd2a7b;
+}
+
+.fa-instagram:hover {
+    color: #9b0046;
+}
+
+/*----------------------youtube BLock --*/
+.fa-youtube {
+    color: #ff0000;
+}
+
+.fa-youtube:hover {
+    color: #a30000;
+}

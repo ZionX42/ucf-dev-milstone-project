@@ -1,4 +1,8 @@
-- Darken Carousel images
-- Fix mobile devices 
+- Darken Carousel images 
+- Add scroll up function
+
+
+DONE
 - Update REAME file
 - create an real estate screenshot
+- Fix mobile devices
