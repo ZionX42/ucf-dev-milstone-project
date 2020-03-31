@@ -39,19 +39,19 @@ As a recommendation for wireframing I got to use [Balsamiq] (https://balsamiq.co
 ### Desktop
 
 <div style="text-align:center;">
-<img src="Project Docs/Wireframes/Mainpage_Desktop_SuperCapable.png"></img><br>
+<img src="Project Docs/Wireframes/project_docs/wireframes/wireframe-desktop.png"></img><br>
 </div>
 
 ### Tablet
 
 <div style="text-align:center;">
-<img src="Project Docs/Wireframes/Tablet_SuperCapable.png"></img><br>
+<img src="project_docs/wireframes/wireframe-tablet.png"></img><br>
 </div>
 
 ### Mobile
 
 <div style="text-align:center;">
-<img src="Project Docs/Wireframes/Mainpage_Smartphone_SuperCapable.png"></img><br>
+<img src="project_docs/wireframes/wireframe-phone.png"></img><br>
 </div>
 
 
@@ -95,6 +95,10 @@ In time there will be more contributors to the website with blog posts. They wil
 ### Podcast
 
 A podcast focusing on the career opportunities, interviewing successful career pivoters and corporations on how they see career shifting fits their businesses.
+
+### Misc
+* Darken Carousel images to make the titles more visible.
+* Add "back to top" scroll up button for faster scroller function.
 
 
 ## Technologies Used
@@ -196,7 +200,9 @@ Logo: Designed in Google Draw by Rick Nassar
 		
 ## Acknowledgements
 
-I received learnings & tutorials on how to build the bootstrap website from this YouTube channel: Responsive Bootstrap Website Start To Finish with Bootstrap 4, HTML5 & CSS3
+I received learnings & tutorials on how to build the bootstrap website from this YouTube channel: Responsive Bootstrap Website Start To Finish with Bootstrap 4, HTML5 & CSS3.
+
+I also received valuable guidance from my mentor Rohit Sharma who advised me on how to be a better programmer.
 
 ### References
 README reference was from this readme file: https://github.com/D0nni387/Luxury-Door-Solutions/blob/master/README.md
