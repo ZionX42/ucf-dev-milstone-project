@@ -22,15 +22,16 @@ Although the project only requires HTML & CSS, I wanted to challenge myself and 
 
 Once the visitor lands on the page they are greeted with a jumbotron image and a H1 text catching their attention for what the website is all about. 
 
-The Navbar will have three sections. About, interviews, resources, and connect with us page. 
+The Navbar will have tabs connected to three sections. 'About', 'Interviews', 'Resources', and 'connect with us' tab to a new page. 
 
 The website will have 5 pages & sections that will include the following:
-	• Home:
+
+	• Home: The main page of the website.
 	• Support: A curated resources of the information that to support the SC initiative.
-	• Interviews: 
-	• About:
+	• Interviews: Interviews with people who already faced and overcame the challanges many visiting the website are currently going through. 
+    • About: Who we are, what we do and why.
 	• Connect: The contact us section of the Home page.
-	• Social Media Section:
+	• Social Media Section: logos to our social media links.
 
 ## Wireframe
 
@@ -65,7 +66,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Features
 
-The Carousel Slider
+The Carousel Slider:
 
 Sliding images to provide the visitor with impactful images and catch phrases. This is to prompt them to scroll and decrease the bounce rate of the visitors.
 
@@ -85,6 +86,10 @@ The most powerful part of the website as it will showcase real life story of peo
 
 A bit of an introduction of the people behind the project and how they can connect with us.
 
+### Contect Us Page
+
+Created a page that allows the visitors to contact us through email and messaging by filling out a customised form.
+
 
 ## Future Features
 
@@ -97,6 +102,7 @@ In time there will be more contributors to the website with blog posts. They wil
 A podcast focusing on the career opportunities, interviewing successful career pivoters and corporations on how they see career shifting fits their businesses.
 
 ### Misc
+
 * Darken Carousel images to make the titles more visible.
 * Add "back to top" scroll up button for faster scroller function.
 
@@ -114,12 +120,16 @@ A podcast focusing on the career opportunities, interviewing successful career p
 
 I frequently used the Chrome developer tools to test the website. It also helped me with finding where the UX faults are.
 
-Another tool I used at the end of the project was Unicorn Revealer. Great to pinpoint any overflows.
+Another tool I used at the end of the project was Unicorn Revealer. Great to pinpoint any overflows. 
 
 Other tools to validate the HTML & CSS were: 
 
 * https://jigsaw.w3.org/css-validator/
 * https://validator.w3.org/
+
+Note about the code formatting: It was mentioned to me by my mentor that the code wasn't as well formatted as desired. I went to the auto formatting fuction provided by Gitpod (Alt+Sift+F). 
+
+### challenges
 
 The below points are some testing stories that I faced and testing challange I went through. They are in particular order:
 
@@ -138,44 +148,21 @@ The below points are some testing stories that I faced and testing challange I w
 
 For example, "Support" on navbar didn't work from contact.html. 
 
+* A challenge I faced with was the appearing logo. I make the mistake of not adding "assets" to the code where the image didn't show. img src="assets/images/logo.png"
 
-*In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-Challanges:
+* The other challenge I had to go through was the logo design. 
 
-*• First challenge I was faced with was the appearing logo. I make the mistake of not adding "assets" to the code where the image didn't show. img src="assets/images/logo.png"
+* Been trying to add the fontawesome icons with no luck where I then realised that I didn't add the script source into HTML.
 
-*• The other challenge I had to go through was the logo design. 
+* Using the inspector tool I was able to test the website's adaptability to the different browsers and screen sizes. The screen sizes are done in the Style.css sheet. Here's a mockup example of how it will look like on multiple screens:
 
-*• Been trying to add the fontawesome icons with no luck where I then realised that I didn't script source into HTML.
-
-*Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-*For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-*Contact form:
-		1. Go to the "Contact Us" page
-		2. Try to submit the empty form and verify that an error message about the required fields appears
-		3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-		4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-*In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-*You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-*If this section grows too long, you may want to split it off into a separate file and link to it from here.
+<div style="text-align:center;">
+<img src="Project Docs/Wireframes/project_docs/screen-website-mockups.png"></img><br>
+</div>
 
 ## Deployment
 
-All the coding is doing from Gitpod. I forked the CI template into Github and then ported it to Gitpod using the recommeded mothod. 
-
-*This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-*Different values for environment variables (Heroku Config Vars)?
-	*• Different configuration files?
-	• Separate git branch?
-
-*In addition, if it is not obvious, you should also describe how to run your code locally.
+All the coding is doing from Gitpod. I forked the CI template into Github and then ported it to Gitpod using the recommeded mothod. The code was run on Gitpod, constantly committed with updates, and then pushed to Github.
 
 ## Credits
 
@@ -185,11 +172,11 @@ Bootstrap 4 core download : https://getbootstrap.com/
 
 Barebone website template & boiler plate that (I also updated with the latest versions) from: https://m.w3newbie.com/d/tutorial-29.zip (Template Code can been seen at Initial Commit2, 13a42f9945d74651cb264b44e636df9b934ca81c)
 
-Base template forked from Code Institute: https://github.com/Code-Institute-Org/gitpod-full-template
+Base repository forked from Code Institute: https://github.com/Code-Institute-Org/gitpod-full-template
 
 ### Content:
 
-All the content that is written by me and the rest are ipsum auto generated on https://loremipsum.io/
+All the content is written by me and the rest are ipsum auto generated on https://loremipsum.io/
 
 ### Media:
 
@@ -200,11 +187,18 @@ Logo: Designed in Google Draw by Rick Nassar
 		
 ## Acknowledgements
 
-I received learnings & tutorials on how to build the bootstrap website from this YouTube channel: Responsive Bootstrap Website Start To Finish with Bootstrap 4, HTML5 & CSS3.
+I received learnings & tutorials on how to build the bootstrap website from YouTube channels like Responsive Bootstrap Website Start To Finish with Bootstrap 4, HTML5 & CSS3. Also from websites like the following:
+
+* https://css-tricks.com/
+* https://www.w3schools.com/bootstrap4
+* https://websitesetup.org/
+* https://getbootstrap.com/docs/4.4/getting-started/introduction/
+* https://developer.mozilla.org/en-US/docs/Learn/HTML
 
 I also received valuable guidance from my mentor Rohit Sharma who advised me on how to be a better programmer.
 
 ### References
+
 README reference was from this readme file: https://github.com/D0nni387/Luxury-Door-Solutions/blob/master/README.md
 	
 	
