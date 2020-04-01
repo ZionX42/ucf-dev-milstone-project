@@ -40,7 +40,7 @@ As a recommendation for wireframing I got to use [Balsamiq] (https://balsamiq.co
 ### Desktop
 
 <div style="text-align:center;">
-<img src="Project Docs/Wireframes/project_docs/wireframes/wireframe-desktop.png"></img><br>
+<img src="project_docs/wireframes/wireframe-desktop.png"></img><br>
 </div>
 
 ### Tablet
@@ -157,7 +157,7 @@ For example, "Support" on navbar didn't work from contact.html.
 * Using the inspector tool I was able to test the website's adaptability to the different browsers and screen sizes. The screen sizes are done in the Style.css sheet. Here's a mockup example of how it will look like on multiple screens:
 
 <div style="text-align:center;">
-<img src="Project Docs/Wireframes/project_docs/screen-website-mockups.png"></img><br>
+<img src="project_docs/screen-website-mockups.png"></img><br>
 </div>
 
 ## Deployment
