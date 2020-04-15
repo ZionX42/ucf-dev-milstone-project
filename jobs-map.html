@@ -74,7 +74,71 @@
 	<!--------------- Jobs Map Section -->
 
 	<body>
-		<div id="map"></div>
+<!--Grid row-->
+		
+
+<div class="row">
+
+  <!--Grid column-->
+  <div class="col-md-8 mb-4">
+
+    <!--Card-->
+    <div class="card card-cascade narrower">
+
+      <!--Card image-->
+      <div class="view view-cascade gradient-card-header blue-gradient">
+        <h5 class="mb-0">Regular map</h5>
+      </div>
+      <!--/Card image-->
+
+      <!--Card content-->
+      <div class="card-body card-body-cascade text-center">
+<p>TEST</p>
+
+      </div>
+      <!--/.Card content-->
+
+    </div>
+    <!--/.Card-->
+
+  </div>
+  <!--Grid column-->
+
+  <!--Grid column-->
+  <div class="col-md-4 mb-4">
+
+    <!--Card-->
+    <div class="card card-cascade narrower">
+
+      <!--Card image-->
+      <div class="view view-cascade gradient-card-header peach-gradient">
+        <h5 class="mb-0">Jobs map</h5>
+      </div>
+      <!--/Card image-->
+
+      <!--Card content-->
+      <div class="card-body card-body-cascade text-center">
+
+        <!--Google map-->
+        <div id="map" style="height: 300px"></div>
+        
+        <!--<div id="map-container-google-9" class="z-depth-1-half map-container-5" style="height: 300px">
+          <iframe src="https://maps.google.com/maps?q=Madryt&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+            style="border:0" allowfullscreen></iframe>
+        </div>-->
+
+
+      </div>
+      <!--/.Card content-->
+
+    </div>
+    <!--/.Card-->
+
+  </div>
+  <!--Grid column-->
+
+</div>
+<!--Grid row-->
 	</body>
 	<!--------------- Footer Section -->
 	<footer class="page-footer font-small blue pt-4">
@@ -133,13 +197,14 @@
 		</div>
 
 	</footer>
+    <script src="assets/js/maps.js"></script>
 	<script
-		src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+		src="https://developers.google.com//maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
 	</script>
 	<script async defer
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIKavBhrrVzQ-AGuAGiFYkXS-3ZcJ4CzQ&callback=initMap">
 	</script>
-	<script src="assets/js/maps.js"></script>
+	
 </body>
 
 </html>
