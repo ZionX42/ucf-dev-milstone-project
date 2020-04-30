@@ -1,4 +1,5 @@
 /*-------------------------- Welcome Section --*/
+
 .welcome {
     width: 75%;
     margin: 0 auto;
@@ -13,7 +14,9 @@
 }
 
 /*-------------------------- Support Section --*/
+
 /*-------------------------- Font Awesome Styling --*/
+
 .container-fluid p {
     padding-top: 1rem;
 }
@@ -31,35 +34,37 @@
 }
 
 .fa-globe, .fa-fire, .fa-child {
-    font-size:3em;
+    font-size: 3em;
     margin: 1rem;
 }
 
 /*-------------------------- Videos Section --*/
+
 .iframe {
     width: 75%;
     margin: 0 auto;
 }
 
-
 /*-------------------------- Interviews Section --*/
+
 .interviews {
     padding-top: 2rem;
 }
 
 .img-fluid {
-
-max-width: 100%;
-max-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /*------------------------------ Social Section --*/
+
 .social a {
     font-size: 4em;
     padding: 3rem;
 }
 
 /*----------------------Facebook Block --*/
+
 .fa-facebook {
     color: #3b5998;
 }
@@ -69,6 +74,7 @@ max-height: 100%;
 }
 
 /*----------------------Twitter Block --*/
+
 .fa-twitter {
     color: #00aced;
 }
@@ -78,6 +84,7 @@ max-height: 100%;
 }
 
 /*----------------------instagram Block --*/
+
 .fa-instagram {
     color: #dd2a7b;
 }
@@ -87,6 +94,7 @@ max-height: 100%;
 }
 
 /*----------------------youtube BLock --*/
+
 .fa-youtube {
     color: #ff0000;
 }
