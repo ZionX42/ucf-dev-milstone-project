@@ -1,7 +1,6 @@
 {
   "name": "jobs_page",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/parcel/bin/cli jobs.html",
@@ -12,5 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "parcel": "^1.12.4"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
