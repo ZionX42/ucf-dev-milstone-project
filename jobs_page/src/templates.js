@@ -1,3 +1,4 @@
+// Jobs rearch results template
 export const jobTemplate = (job, currency) => `
 <div class="card">
   <div class="card-body">
