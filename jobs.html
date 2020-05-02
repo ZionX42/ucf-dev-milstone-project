@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<!-- Required Meta Tags -->
+	<!-- Required Met Tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" href="/assets/images/favicon.png" />
@@ -25,3 +25,187 @@
 	<link href="assets/css/maps.css" rel="stylesheet">
 	<link href="assets/css/jobs.css" rel="stylesheet">
 </head>
+
+<body>
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container ">
+			<a class="navbar-brand" href="index.html"><img src="assets/images/logo.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#support">Support</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#interviews">Interviews</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#about">About</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact Us!</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="jobs-map.html">Your Future Job Here!</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<hr>
+	<!-- Jobs Map Section -->
+
+	<body>
+		<!--Grid row-->
+
+
+		<div class="row">
+
+			<!--Grid column-->
+			<div class="col-md-8 mb-4">
+
+				<!--Card-->
+				<div class="card card-cascade narrower">
+
+					<!--Card image-->
+					<div class="view view-cascade">
+						<h5 class="mb-0">Jobs Search</h5>
+					</div>
+					<!--/Card image-->
+
+					<!--Card content-->
+					<div class="card-body card-body-cascade">
+
+						<p>TEST</p>
+
+					</div>
+					<!--/.Card content-->
+
+				</div>
+				<!--/.Card-->
+
+			</div>
+			<!--Grid column-->
+
+			<!--Grid column-->
+			<div class="col-md-4 mb-4">
+
+				<!--Card-->
+				<div class="card card-cascade narrower">
+
+					<!--Card image-->
+					<div class="view view-cascade">
+						<h5 class="mb-0">Jobs map</h5>
+					</div>
+					<!--/Card image-->
+
+					<!--Card content-->
+					<div class="card-body card-body-cascade">
+
+						<!--Google map-->
+						<div id="map" style="height: 300px"></div>
+
+						<!--<div id="map-container-google-9" class="z-depth-1-half map-container-5" style="height: 300px">
+          <iframe src="https://maps.google.com/maps?q=Madryt&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+            style="border:0" allowfullscreen></iframe>
+        </div>-->
+
+
+					</div>
+					<!--/.Card content-->
+
+				</div>
+				<!--/.Card-->
+
+			</div>
+			<!--Grid column-->
+
+		</div>
+		<!--Grid row-->
+	</body>
+	<!-- Footer Section -->
+	<footer class="page-footer font-small blue pt-4">
+		<div class="container-fluid text-center text-md-left">
+			<div class="row">
+				<div class="col-md-6 mt-md-0 mt-3">
+					<h5 class="text-uppercase">Super Capable</h5>
+					<p>Your Support for discovering your new Career.</p>
+					<p>Nulla aliquet enim tortor at auctor urna. In hac habitasse platea dictumst.
+						Pulvinar
+						etiam
+						non quam lacus suspendisse faucibus interdum posuere lorem. Tincidunt dui ut
+						ornare
+						lectus
+						sit amet est. </p>
+				</div>
+				<hr class="clearfix w-100 d-md-none pb-3">
+				<div class="col-md-3 mb-md-0 mb-3 text-center">
+					<h5 class="text-uppercase">Support</h5>
+					<ul class="list-unstyled">
+						<li>
+							<a href="index.html#support">Support</a>
+						</li>
+						<li>
+							<a href="index.html#about">About</a>
+						</li>
+						<li>
+							<a href="index.html#interviews">Interviews</a>
+						</li>
+					</ul>
+
+				</div>
+
+				<div class="col-md-3 mb-md-0 mb-3 text-center">
+					<h5 class="text-uppercase">Support</h5>
+					<ul class="list-unstyled">
+						<li>
+							<a href="index.html#support">Support</a>
+						</li>
+						<li>
+							<a href="index.html#about">About</a>
+						</li>
+						<li>
+							<a href="index.html#interviews">Interviews</a>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Copyright Section -->
+		<div class="footer-copyright text-center py-3">© 2020 Copyright:
+			<a href="#">Super Capable</a>
+			<a> | Homegrown in Ireland ❤</a>
+		</div>
+
+	</footer>
+	<script src="assets/js/maps.js"></script>
+	<script
+		src="https://developers.google.com//maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
+		</script>
+	<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIKavBhrrVzQ-AGuAGiFYkXS-3ZcJ4CzQ&callback=initMap">
+		</script>
+
+</body>
+
+</html>
