@@ -1,4 +1,5 @@
-import { extractFormData, getCurrencySymbol } from './currency';
+import { extractFormData, getCurrencySymbol } from './currency.js';
+import { jobTemplate} from './templates.js';
 
 // Selector to know where the data is coming from
 class JobSearch {
