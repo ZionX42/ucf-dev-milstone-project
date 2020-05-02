@@ -49,6 +49,6 @@ const server = createServer((req, res) => {
 });
 // Server listening
 server.listen(3000, () => {
-  console.log(chalk.green("Server listening"));
+  console.log(chalk.green("Server listening: http:localhost:3000"));
 });
 
