@@ -1,3 +1,4 @@
+// Frontend proxy to Adzuna where the job search API is fetched
 module.exports = {
     APP_ID: process.env.APP_ID,
     API_KEY: process.env.API_KEY,
