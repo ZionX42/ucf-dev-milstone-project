@@ -11,13 +11,23 @@ const headers = {
   "Access-Control-Allow-Methods": "GET",
 };
 
+ // Axios requests & error settings
+const decodeParams = searchParams => Array
+  .from(searchParams.keys())
+  .reduce((acc, key) => ({ ...acc, [key]: searchParams.get(key)}), {});
+
 const server = createServer((req, res) => {
   const requestURL = url.parse(req.url);
   const decodedParams = decodeParams(new URLSearchParams(requestURL.search));
-  const { search, location, country = "ie" } = decodedParams;
+  const { search, location, country = "gb" } = decodedParams;
+ 
+  
 
-  // Axios requests & error settings
-  const targetURL = `${config.BASE_URL}/${country.toLowerCase()}/${config.BASE_PARAMS}&app_id=${config.APP_ID}&app_key=${config.API_KEY}&what=${search}&where=${location}`;
+  const targetURL = `${config.BASE_URL}/${country.toLowerCase()}/${
+    config.BASE_PARAMS
+  }&app_id=${config.APP_ID}&app_key=${
+    config.API_KEY
+  }&what=${search}&where=${location}`;
   if (req.method === "GET") {
     console.log(chalk.blue(`Proxy GET request to : ${targetURL}`));
     axios
@@ -26,17 +36,15 @@ const server = createServer((req, res) => {
         res.writeHead(200, headers);
         res.end(JSON.stringify(response.data));
       })
-      .catch((response) => {
-        console.log(chalk.red(response));
+      .catch((error) => {
+        console.log(chalk.red(error));
         res.writeHead(500, headers);
-        res.end(JSON.stringify(response));
+        res.end(JSON.stringify(error));
       });
   }
 });
 
-
 server.listen(3000, () => {
-  console.log(chalk.green('Server listening'));
-} );
-
+  console.log(chalk.green("Server listening"));
+});
 
