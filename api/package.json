@@ -19,6 +19,7 @@
   "homepage": "https://github.com/ZionX42/ucf-dev-milstone-project#readme",
   "dependencies": {
     "axios": "^0.19.2",
-    "chalk": "^4.0.0"
+    "chalk": "^4.0.0",
+    "dotenv": "^8.2.0"
   }
 }

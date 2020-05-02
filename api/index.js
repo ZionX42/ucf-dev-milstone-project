@@ -5,6 +5,10 @@ const axios = require("axios");
 const chalk = require("chalk");
 const config = require("./config");
 
+// .env enviroment setting
+require('dotenv').config();
+console.log (process.env);
+
 const headers = {
   "Content-Type": "application/json",
   "Access-Control-Allow-Origin": "*",
@@ -43,7 +47,7 @@ const server = createServer((req, res) => {
       });
   }
 });
-
+// Server listening
 server.listen(3000, () => {
   console.log(chalk.green("Server listening"));
 });
