@@ -1,0 +1,4 @@
+<div class="input-group">
+    <input type="text" name="name" id="name" class="form-control" placeholder="placeholder" aria-describedby="sufixId">
+    <span class="input-group-addon" id="sufixId">sufix</span>
+</div>
