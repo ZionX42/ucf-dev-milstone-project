@@ -1,0 +1,1 @@
+{"version":3,"sources":["../assets/css/footer.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"footer.e175904e.css","sourceRoot":"..","sourcesContent":["/*-------------------------- Footer Styling --*/\r\n\r\nfooter {\r\n    background-color: #3f3f3f;\r\n    color: #d5d5d5;\r\n}\r\n\r\nfooter li a {\r\n    color: #d5d5d5;\r\n}"]}

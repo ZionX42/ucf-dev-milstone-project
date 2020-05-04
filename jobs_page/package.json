@@ -1,10 +1,10 @@
 {
   "name": "jobs_page",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "jobapp.js",
   "scripts": {
     "start": "node ./node_modules/parcel/bin/cli jobs.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node ./node_modules/parcel/bin/cli build jobs.html"
   },
   "keywords": [],
   "author": "",
