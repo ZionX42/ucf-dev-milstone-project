@@ -6,8 +6,8 @@ const chalk = require("chalk");
 const config = require("./config");
 
 // .env enviroment setting
-require('dotenv').config();
-console.log (process.env);
+require("dotenv").config();
+console.log(process.env);
 
 const headers = {
   "Content-Type": "application/json",
@@ -15,17 +15,15 @@ const headers = {
   "Access-Control-Allow-Methods": "GET",
 };
 
- // Axios requests & error settings
+// Axios requests & error settings
 const decodeParams = searchParams => Array
   .from(searchParams.keys())
-  .reduce((acc, key) => ({ ...acc, [key]: searchParams.get(key)}), {});
+  .reduce((acc, key) => ({ ...acc, [key]: searchParams.get(key) }), {});
 
 const server = createServer((req, res) => {
   const requestURL = url.parse(req.url);
   const decodedParams = decodeParams(new URLSearchParams(requestURL.search));
   const { search, location, country = "gb" } = decodedParams;
- 
-  
 
   const targetURL = `${config.BASE_URL}/${country.toLowerCase()}/${
     config.BASE_PARAMS
@@ -33,17 +31,17 @@ const server = createServer((req, res) => {
     config.API_KEY
   }&what=${search}&where=${location}`;
   if (req.method === "GET") {
-    console.log(chalk.blue(`Proxy GET request to : ${targetURL}`));
+    console.log(chalk.green(`Proxy GET request to : ${targetURL}`));
     axios
       .get(targetURL)
       .then((response) => {
         res.writeHead(200, headers);
         res.end(JSON.stringify(response.data));
       })
-      .catch((error) => {
-        console.log(chalk.red(error));
+      .catch((response) => {
+        console.log(chalk.red(response));
         res.writeHead(500, headers);
-        res.end(JSON.stringify(error));
+        res.end(JSON.stringify(response));
       });
   }
 });
@@ -51,4 +49,3 @@ const server = createServer((req, res) => {
 server.listen(3000, () => {
   console.log(chalk.green("Starting Server: http:localhost:3000"));
 });
-

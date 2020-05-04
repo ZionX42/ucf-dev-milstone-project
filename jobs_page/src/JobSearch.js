@@ -1,7 +1,6 @@
 import { jobTemplate } from "./templates";
 import { extractFormData, getCurrencySymbol } from "./currency";
 
-
 // Selector to know where the data is coming from
 export class JobSearch {
   constructor(
@@ -39,7 +38,6 @@ export class JobSearch {
       this.startLoading();
       this.resultsContainer.innerHTML = "";
       const { search, location } = extractFormData(this.searchForm);
-
       fetch(
         `http://localhost:3000/?search=${search}&location=${location}&country=${this.countryCode}`
       )
@@ -53,5 +51,13 @@ export class JobSearch {
         .then((jobs) => (this.resultsContainer.innerHTML = jobs))
         .catch(() => this.stopLoading());
     });
+  }
+
+  startLoading() {
+    this.loadingElement.classList.add("loading");
+  }
+
+  stopLoading() {
+    this.loadingElement.classList.remove("loading");
   }
 }
